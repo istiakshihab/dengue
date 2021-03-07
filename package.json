@@ -8,7 +8,7 @@
     "start": "node index.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "webpack build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -75,6 +75,7 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "webpack": "^3.11.0",
+    "webpack-cli": "^4.5.0",
     "webpack-dev-middleware": "^2.0.5"
   },
   "babel": {
